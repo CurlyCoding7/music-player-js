@@ -31,33 +31,33 @@ let songs = [
     },
 
     {
-        name: 'song 1',
+        name: 'song 6',
         path: 'songs/1.mp3',
-        artist: 'artist 1',
-        cover: 'images/cover 1.png'
+        artist: 'artist 6',
+        cover: 'images/1.jpg'
     },
     {
-        name: 'song 2',
+        name: 'song 7',
         path: 'songs/2.mp3',
-        artist: 'artist 2',
-        cover: 'images/cover 2.png'
+        artist: 'artist 7',
+        cover: 'images/2.jpg'
     },
     {
-        name: 'song 3',
+        name: 'song 8',
         path: 'songs/3.mp3',
-        artist: 'artist 3',
-        cover: 'images/cover 3.png'
+        artist: 'artist 8',
+        cover: 'images/3.jpg'
     },
     {
-        name: 'song 4',
+        name: 'song 9',
         path: 'songs/4.mp3',
-        artist: 'artist 4',
-        cover: 'images/cover 4.png'
+        artist: 'artist 9',
+        cover: 'images/4.jpg'
     },
     {
-        name: 'song 5',
+        name: 'song 10',
         path: 'songs/5.mp3',
-        artist: 'artist 5',
-        cover: 'images/cover 5.png'
+        artist: 'artist 10',
+        cover: 'images/5.jpg'
     },
 ]
