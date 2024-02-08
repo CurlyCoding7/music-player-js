@@ -31,7 +31,7 @@ const setMusic = (i) => {
 
     songName.innerHTML = song.name;
     artistName.innerHTML = song.artist;
-    disk.style.backgroundImage = `url(${song.cover})`;
+    disk.style.backgroundImage = `url('./${song.cover}')`;
 
     currentMusic.innerHTML = '00:00';
 
