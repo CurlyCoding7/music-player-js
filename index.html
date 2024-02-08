@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/bg.jpg" type="image/x-icon">
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="music-player">
+        <h1 class="song-name">Song 1</h1>
+        <p class="artist-name">Artist</p>
+
+        <div class="disk"></div>
+
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+        <div class="control-icons">
+            <i id="backward-icon" class="fa fa-backward" style="font-size:38px;color:red;cursor: pointer;"></i>  
+            <i id="play-icon" class="fa fa-play" style="font-size:58px;color:#fff;cursor: pointer;"></i>
+            <i id="forward-icon" class="fa fa-forward" style="font-size:38px;color:red;cursor: pointer;"></i>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
